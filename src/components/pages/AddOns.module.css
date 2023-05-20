@@ -1,0 +1,205 @@
+.h1{
+    font-weight: bolder;
+    font-size: 45px;
+    color: rgb(38, 65, 219);
+}
+.p{
+    color: rgb(84, 81, 81);
+}
+.h1, .p{
+    position: relative;
+    left: 9rem;
+    bottom: 9rem;
+}
+.add{
+    position: absolute;
+    top:15rem;
+    left: 20rem;
+}
+
+.labelstyled {
+    position: relative;
+    left: 10rem;
+    display: flex;
+    gap: 30px;
+    border: 2px solid rgba(89, 89, 91, 0.43);
+    border-radius: 10px;
+    width: 35rem;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.738);
+}
+.valorOn {
+    position: relative;
+    left: 12rem;
+}
+.valorLager {
+    position: relative;
+    left: 10rem;
+}
+.valorCust{
+    position: relative;
+    left: 10rem;
+}
+
+.labelstyled:hover {
+    border-color:blue;
+}
+.labelstyledActive {
+    position: relative;
+    left: 10rem;
+    display: flex;
+    gap: 30px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 35rem;
+    height: 100px;
+    margin-top: 20px;
+    opacity: 50%;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.738);
+    overflow-x:hidden;
+}
+
+
+.input{
+   width: 25px;
+   height: 25px;
+   position: relative;
+   left: 30px;
+   border: 1px solid;
+   border-radius: 5px;
+}
+.activeInput{
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+
+.options{
+ position: relative;
+ left: 30px;
+}
+.opTitle{
+    color: rgb(38, 65, 219);
+}
+.oppar{
+   color: rgb(128, 124, 124);
+   font-size: 15px;
+}
+.bts {
+    position: relative;
+    left: 6rem;
+    top: 9rem;
+    display: flex;
+    gap: 15rem;
+}
+.goBack , .nextStep{
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+.goBack{
+    background-color: transparent;
+    color: rgb(132, 130, 130);
+}
+.goBack:hover{
+    color: rgb(31, 31, 140);
+    transition: 1s;
+}
+.nextStep {
+    background-color: rgb(31, 31, 140);
+    color: white;
+}
+
+.actMsg{
+    background-color: rgb(194, 58, 58);
+    padding: 8px;
+    border-color: brown;
+    text-align: center;
+    border-radius: 30px;
+    transition: .5s;
+    margin-top: 10px;
+    color: rgb(131, 28, 28);
+    transition: .5s;
+    position: absolute;
+    top: 40rem;
+    right: 5rem;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+.intMsg {
+   display: none;
+   transition: .5s;
+}
+@media screen and (max-width: 720px) {
+    .h1, .p{
+        position: relative;
+        left: 1rem;
+        bottom:-1rem;
+    }
+    .h1{
+        font-weight: bolder;
+        font-size: 35px;
+        color: rgb(38, 65, 219);
+    }
+    .p{
+        font-size: 20px;
+        color: rgb(84, 81, 81);
+    }
+    .add{
+        position: absolute;
+        background-color: white;
+        top: 8rem;
+        left: 3rem;
+        width: 400px;
+        height: 480px;
+        border-radius: 15px;
+    }
+
+    .labelstyled {
+        width: 380px;
+        height: 90px;
+        left: 0.5rem;
+        top: 2rem;
+    }
+    .labelstyledActive {
+        width: 400px;
+    }
+    .valor, .promocao{
+        font-size: 15px;
+        font-weight: bolder;
+        position: relative;
+        top: -10rem;
+        left: 4rem;
+    }
+    .bts {
+        position: absolute;
+        left: -5rem;
+        top: 37rem;
+        display: flex;
+        gap: 10rem;
+        width: 500px;
+    }
+    .actMsg{
+        width: 250px;
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+}

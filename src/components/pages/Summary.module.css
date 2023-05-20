@@ -1,0 +1,180 @@
+.h1{
+    font-weight: bolder;
+    font-size: 45px;
+    color: rgb(38, 65, 219);
+}
+.p{
+    color: rgb(84, 81, 81);
+}
+.h1, .p{
+    position: relative;
+    left: 9rem;
+    bottom: 9rem;
+}
+.sum{
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+}
+.dadosPai{
+    background-color: rgba(237, 234, 234, 0.608);
+    border-radius: 30px;
+    position: relative;
+    left: 5rem;
+    bottom: 5rem;
+    padding: 20px;
+}
+.Plan{
+    display: flex;
+    align-items: center;
+    
+}
+.Plan div h1{
+    color: rgb(38, 65, 219);
+}
+.Plan div span{
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    font-weight: 500;
+    font-weight: bolder;
+    transition: .5s;
+}
+.Plan div span:hover{
+    color: rgb(38, 65, 219);
+    border-bottom: 1px solid;
+}
+.valorDoPlano{
+    position: relative;
+    left: 20rem;
+    color: rgb(38, 65, 219);
+    font-weight: 500;
+    font-weight: bolder;
+}
+.container{
+    width: 99%;
+    border: 1px solid rgba(190, 177, 177, 0.464);
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.planSelect{
+    display: flex;
+    padding: 15px;
+    color: rgba(84, 81, 81, 0.576);
+}
+.valorOn{
+    position: relative;
+    left:  16rem;
+    color: rgb(38, 65, 219);
+}
+.valorLager{
+    position: relative;
+    left:  14.5rem;
+    color: rgb(38, 65, 219);
+}
+.valorCust{
+    position: relative;
+    left: 16rem;
+    color: rgb(38, 65, 219);
+}
+.valorTotal{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+}
+.valorTotal p{
+    color: rgba(84, 81, 81, 0.576);
+}
+.valorTotal span{
+    color: rgb(38, 65, 219);
+    font-weight: 500;
+    font-weight: bolder;
+    position: relative;
+    left: 16rem;
+    font-size: 20px;
+
+}
+.bts {
+    position: relative;
+    left: 5rem;
+    top: 10rem;
+    display: flex;
+    gap: 15rem;
+}
+.goBack , .nextStep{
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+.goBack{
+    background-color: transparent;
+    color: rgb(132, 130, 130);
+}
+.goBack:hover{
+    color: rgb(31, 31, 140);
+    transition: 1s;
+}
+.nextStep {
+    background-color: rgb(31, 31, 140);
+    color: white;
+}
+@media screen and (max-width: 720px) {
+    .sum{
+        top:9rem;
+        left: 3rem;
+        width: 400px;
+        height: 500px;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .h1, .p{
+        position: relative;
+        left: 1rem;
+        bottom:-1rem;
+    }
+    .h1{
+        font-weight: bolder;
+        font-size: 35px;
+        color: rgb(38, 65, 219);
+    }
+    .p{
+        font-size: 20px;
+        color: rgb(84, 81, 81);
+    }
+    .bts {
+        position: absolute;
+        left: -5rem;
+        top: 37rem;
+        display: flex;
+        gap: 10rem;
+        width: 500px;
+    }
+    .dadosPai{
+        top: 3rem;
+        left: 0;
+        background-color: transparent;
+    }
+    .valorTotal span, .planSelect span{
+        top:0rem;
+        left: 3rem;
+    }
+    .valorTotal{
+        top: 2rem;
+        left: 0;
+    }
+    .valorDoPlano{
+        top:0rem;
+        left: 7rem;
+    }
+    .planSelect{
+        font-size: 15px;
+    }
+}

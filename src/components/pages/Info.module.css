@@ -1,0 +1,42 @@
+.info h1 , .info p {
+    position: relative;
+    left: 9rem;
+}
+.info h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    color: rgb(38, 65, 219);
+}
+.info section {
+    margin-bottom: 4rem;
+}
+.info p {
+    color: rgb(84, 81, 81);
+}
+.info{
+    position: absolute;
+    top:6rem;
+    left: 20rem;
+}
+
+@media screen and (max-width: 720px) {
+    .info{
+        position: absolute;
+        top: 7rem;
+        left: 3rem;
+        width: 400px;
+        height:500px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .info h1 {
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(38, 65, 219);
+        margin-top: 30px;
+    }
+    .info h1 , .info p {
+        position: relative;
+        left: 1rem;
+    }
+}
