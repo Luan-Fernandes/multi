@@ -61,9 +61,10 @@ function SelectPlan({setStep, msgPromocao, setMsgPromocao, selected, setSelected
    
     return (
         <div className={styles.plan}>
+            <div>
             <h1 className={styles.h1}>Selecione seu plano</h1>
             <p className={styles.p}>Você tem a opção de faturamento mensal ou anual.</p>
-
+            </div>
             <form className={styles.form}>
                 <section className={styles.containerPai}>
                     <div className={selected === 'Arcade' ? styles.containerProSelected : styles.containerPro}>

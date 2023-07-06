@@ -23,7 +23,8 @@ body{
     background-size: cover;
     border-radius: 30px;
     width: 23rem;
-    height: 900px;
+    height: 95vh;
+    position: fixed;
 }
 
 .list {
@@ -97,6 +98,7 @@ body{
     .list {
         display: flex;
         gap: 10px;
+        margin-left: 40px;
     }
 
     .step1 div,

@@ -4,13 +4,13 @@ import { memo } from "react";
 function Info({ step, setStep }){
     return(
         <div className={styles.info}>
-            <section>
+            <div>
             <h1>Informações Pessoais</h1>
             <p>Forneça seu nome, endereço de e-mail e número de telefone.</p>
-            </section>
+            </div>
             <Formulario step={step} setStep={setStep}/>
             
-
+        
         </div>
     );
 }

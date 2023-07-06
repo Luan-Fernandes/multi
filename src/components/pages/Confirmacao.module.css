@@ -1,22 +1,21 @@
 .confirm {
-    width: 50%;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 8.5rem;
-    position: absolute;
-    top: 15rem;
-    left: 30rem;
+
+    height: 98vh;
+    width: 100%;
 }
 img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
+
 }
-.h1, img, .p{
+.h1,.img ,.p{
     margin-bottom: 40px;
+    margin-left: 300px;
 }
 .h1{
     font-weight: bolder;
@@ -24,12 +23,10 @@ img{
     color: rgb(38, 65, 219);
 }
 .p{
-    color: black;
     text-align: center;
-    line-height: 30px;
     font-size: 18px;
-    font-weight: 500;
     font-weight: bolder;
+    width: 50%;
     color: rgb(107, 104, 104);
 }
 @media screen and (max-width: 720px) {

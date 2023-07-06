@@ -9,12 +9,15 @@
 .h1, .p{
     position: relative;
     left: 9rem;
-    bottom: 9rem;
 }
 .add{
     position: absolute;
-    top:15rem;
-    left: 20rem;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .labelstyled {
@@ -98,7 +101,7 @@
 .bts {
     position: relative;
     left: 6rem;
-    top: 9rem;
+    top: 2rem;
     display: flex;
     gap: 15rem;
 }

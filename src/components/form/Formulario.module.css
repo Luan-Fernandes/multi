@@ -11,10 +11,10 @@
     margin-bottom: 50px;
     margin-top: 5px;
     position: relative;
-    border: 1px solid transparent;
     background-color: transparent;
     border: 1px solid rgb(27, 48, 189);
     box-shadow: 3px 3px 3px rgb(101, 101, 101);
+    width: 120%;
 }
 
 .btn {
@@ -24,7 +24,6 @@
     border: 0;
     position: relative;
     left: 15rem;
-    top: 4rem;
     padding: 20px;
     color: white;
     cursor: pointer;
@@ -45,8 +44,8 @@
     margin-top: 10px;
     color: rgb(131, 28, 28);
     position: absolute;
-    top: 30rem;
-    width: 50%;
+    top: 29.5rem;
+    width: 27%;
     font-size: 18px;
     font-weight: 500;
     font-weight: bolder;
@@ -57,35 +56,38 @@
     display: none;
 }
 @media screen and (max-width: 720px) {
-    .form input {
+    .form{
+        width: 100%;
+        left: 0;
+        margin-top: 5px;
+        height: 90vh;
+        margin-left: 0;
+    }
+    .form input{
         border-radius:5px;
         padding: 15px;
         position: relative;
-        top: -3rem;
-        right: 6rem;
-        border: 1px solid transparent;
         background-color: transparent;
         border: 1px solid rgb(27, 48, 189);
         box-shadow: 3px 3px 3px rgb(101, 101, 101);
         width: 300px;
         height:50px;
+        
     }
     .form label{
         position: relative;
-        top: -3rem;
-        right: 6rem;
+ 
     }
     .msg {
         position: relative;
-        top: -7rem;
-        right: 4rem;
-        width: 250px;
+        top: -30rem;
+        width: 100%;
         
     }
     .btn {
        position: relative;
-       top: 4rem;
-       left:7rem;
+       bottom: 40px;
+       left:9rem;
        width:10rem;
     }
 }

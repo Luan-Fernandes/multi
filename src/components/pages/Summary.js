@@ -26,7 +26,7 @@ function Summary({ selected, mesAno, porMesAno, setPorMesAno, valorPlan, valorOn
                 <div className={styles.Plan}>
                     <div>
                         <h1>{selected} ({porMesAno})</h1>
-                        <span onClick={() => history("/SelectPlan")}>Mudar Plano</span>
+                        <span onClick={() => [history("/SelectPlan"),setStep(2)]}>Mudar Plano</span>
                     </div>
                     <span className={styles.valorDoPlano}>${valorPlan}/{porMesAno}</span>
                 </div>
